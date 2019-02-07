@@ -21,7 +21,7 @@ function takeANumber(lineOfPeople, newName) {
     return "Welcome, " + newName + ". You are number " + (lineOfPeople.indexOf(newName)+1) + " in line.";
   
   }
-}
+} 
 console.log(takeANumber(katzDeliLine, first));
 console.log(takeANumber(katzDeliLine, second));
 console.log(takeANumber(katzDeliLine, third));
@@ -56,4 +56,13 @@ function currentLine(line) {
   return counter;
   
 }
+
+
+function example(line) {
+  let counter = 0;
+  let counter1 = counter++;
+  
+  line.push(counter1);
+}
+
 
